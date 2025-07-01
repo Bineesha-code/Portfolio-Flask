@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px 30px;
+    background-color: #fff;
+    font-family: Gumela;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #190980;
+}
+
+header p {
+    font-size: 18px;
+    color: #95979f;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 1000px;
+    border: 4px solid var(--orangeCard);
+    border-radius: 20px;
+}
+.card-frame {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 4px solid #95979f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #190980;
+}
+
+.section p,
+.section ul {
+    font-size: 16px;
+    color: #444;
+}
+
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #190980;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #190980;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #190980;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
